@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Entrada
+        var num1 = prompt("Digite o primeiro número");
+        var num2 = prompt("Digite o segundo número");
+
+        // conversão de número para inteiro: parseInt (camelCase é necessário para reconhecimento de códigos)
+        // é necessário converter, se não ele apenas concatena (provavelmente por ler como string)
+        // parseFloat para números quebrados
+        // Processamento
+        var soma = parseInt(num1) + parseInt(num2);
+        var multiplicacao = parseInt(num1) * parseInt(num2);
+        var divisao = parseInt(num1) / parseInt(num2);
+        var subtracao = parseInt(num1) - parseInt(num2);
+
+        // Saída
+        document.write("A soma é "+soma+"<br>");
+        document.write("A multiplicação é "+multiplicacao+"<br>");
+        document.write("A divisão é "+divisao+"<br>");
+        document.write("A subtração é "+subtracao+"<br>");
+
+    </script>
+</body>
+</html>
